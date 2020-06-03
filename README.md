@@ -2,6 +2,7 @@ EE364 Final Project on Active Learning.
 
 References:
 [Main reference, Ralaivola & Louche 2015](https://arxiv.org/abs/1508.02986)
+
 [Secondary reference on text classification, Tong & Koller 2001](http://www.jmlr.org/papers/volume2/tong01a/tong01a.pdf)
 
 Setup your environment:

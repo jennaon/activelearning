@@ -12,6 +12,7 @@ This process takes a while--> run it once,
 '''
 
 from nltk.corpus import stopwords
+from nltk.corpus import reuters
 from sklearn.feature_extraction.text import TfidfVectorizer
 from nltk import word_tokenize
 from nltk.stem.porter import PorterStemmer

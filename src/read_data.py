@@ -34,6 +34,8 @@ train_labels = mlb.fit_transform([reuters.categories(doc_id)
 test_labels = mlb.transform([reuters.categories(doc_id)
                              for doc_id in test_docs_id])
 
+pdb.set_trace()
+
 # Classifier
 
 classifier = OneVsRestClassifier(ActiveSVM(random_state=42))
@@ -42,3 +44,4 @@ pdb.set_trace()
 classifier.fit(traindocs, train_labels)
 
 predictions = classifier.predict(testdocs)
+pdb.set_trace()

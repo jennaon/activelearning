@@ -1,6 +1,6 @@
-##EE364 Final Project on Active Learning.
+## EE364 Final Project on Active Learning.
 
-#References:
+# References:
 
 [Main reference, Ralaivola & Louche 2015](https://arxiv.org/abs/1508.02986)
 
@@ -10,15 +10,19 @@
 
 `conda env create -f environment.yml`
 
-You will need to set up a few nltk packages locally. Start your `conda` enviornment
+You will need to set up a few nltk packages locally. Start your `conda` environment
+
 `conda activate cvxpy`
 
 and start Python Interpreter:
+
 `python`
 
 Download necessary packages:
-`improt nltk
-nltk.download('reuters', 'punkt', 'stopwords')``
+
+`improt nltk`
+
+`nltk.download('reuters', 'punkt', 'stopwords')`
 
 If successful, you'll get "true" message.
 
